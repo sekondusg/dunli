@@ -1,0 +1,160 @@
+Complete Foods
+Recipes
+Nutrient Profiles
+About
+
+Back to recipe
+Editing Ingredient
+Name
+Flaxseed, fresh ground
+How to add an ingredient from another recipe
+FormUnit
+Container Size
+11384
+g
+Cost
+$
+41.9
+Source
+Bob's Red Mill
+Link
+https://www.bobsredmill.com/brown-flaxseeds.html
+Daily serving
+50
+g
+Volume
+0
+Unit
+Please enter the 'suggested serving' size that typically appears on nutritional information labels, then nutrient amounts relative to that serving size.
+Serving size
+100
+g
+Calories
+534
+kcal per serving
+Carbohydrates
+31
+g per serving
+Protein
+23
+g per serving
+Total Fat
+34.6
+g per serving
+Saturated Fat
+3.7
+g per serving
+Monounsaturated Fat
+7.5
+g per serving
+Polyunsaturated Fat
+28.7
+g per serving
+Omega-3 Fatty Acids
+22.813
+g per serving
+Omega-6 Fatty Acids
+5.911
+g per serving
+Total Fiber
+26.4
+g per serving
+Soluble Fiber
+13.2
+g per serving
+Insoluble Fiber
+13.2
+g per serving
+Cholesterol
+0
+mg per serving
+Calcium
+0.255
+g per serving
+Chloride
+0
+g per serving
+Chromium
+0
+ug per serving
+Copper
+1.2
+mg per serving
+Iodine
+0
+ug per serving
+Iron
+5.7
+mg per serving
+Magnesium
+392
+mg per serving
+Manganese
+2.5
+mg per serving
+Molybdenum
+0
+ug per serving
+Phosphorus
+0.642
+g per serving
+Potassium
+0.813
+g per serving
+Selenium
+25.4
+ug per serving
+Sodium
+0.03
+g per serving
+Sulfur
+0
+g per serving
+Zinc
+4.3
+mg per serving
+Vitamin A
+0
+IU per serving
+Vitamin B6
+0.5
+mg per serving
+Vitamin B12
+0
+ug per serving
+Vitamin C
+0.6
+mg per serving
+Vitamin D
+0
+IU per serving
+Vitamin E
+0.447
+IU per serving
+Vitamin K
+4.3
+ug per serving
+Thiamin
+1.6
+mg per serving
+Riboflavin
+0.2
+mg per serving
+Niacin
+3.1
+mg per serving
+Folate
+87
+ug per serving
+Pantothenic Acid
+1
+mg per serving
+Biotin
+0
+ug per serving
+Choline
+78.7
+mg per serving
+completefoods
+Contact UsNutrient CalculatorTerms & Privacy
+Feedback

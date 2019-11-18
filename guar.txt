@@ -1,0 +1,160 @@
+Complete Foods
+Recipes
+Nutrient Profiles
+About
+
+Back to recipe
+Editing Ingredient
+Name
+Guar gum
+How to add an ingredient from another recipe
+FormUnit
+Container Size
+907
+g
+Cost
+$
+13.99
+Source
+Amazon
+Link
+https://www.amazon.com/gp/product/B07FXSV3GV/ref=oh_aui_search_asin_title?ie=UTF8&psc=1
+Daily serving
+0.75
+g
+Volume
+0
+Unit
+Please enter the 'suggested serving' size that typically appears on nutritional information labels, then nutrient amounts relative to that serving size.
+Serving size
+100
+g
+Calories
+332
+kcal per serving
+Carbohydrates
+77.3
+g per serving
+Protein
+4.6
+g per serving
+Total Fat
+0.5
+g per serving
+Saturated Fat
+0.06
+g per serving
+Monounsaturated Fat
+0.22
+g per serving
+Polyunsaturated Fat
+0.07
+g per serving
+Omega-3 Fatty Acids
+0.001
+g per serving
+Omega-6 Fatty Acids
+0.067
+g per serving
+Total Fiber
+77.3
+g per serving
+Soluble Fiber
+0
+g per serving
+Insoluble Fiber
+0
+g per serving
+Cholesterol
+0
+mg per serving
+Calcium
+0.294
+g per serving
+Chloride
+0
+g per serving
+Chromium
+0
+ug per serving
+Copper
+0
+mg per serving
+Iodine
+0
+ug per serving
+Iron
+0
+mg per serving
+Magnesium
+0
+mg per serving
+Manganese
+0
+mg per serving
+Molybdenum
+0
+ug per serving
+Phosphorus
+0
+g per serving
+Potassium
+0
+g per serving
+Selenium
+0
+ug per serving
+Sodium
+0.125
+g per serving
+Sulfur
+0
+g per serving
+Zinc
+0
+mg per serving
+Vitamin A
+0
+IU per serving
+Vitamin B6
+0
+mg per serving
+Vitamin B12
+0
+ug per serving
+Vitamin C
+0
+mg per serving
+Vitamin D
+0
+IU per serving
+Vitamin E
+0
+IU per serving
+Vitamin K
+0
+ug per serving
+Thiamin
+0
+mg per serving
+Riboflavin
+0
+mg per serving
+Niacin
+0
+mg per serving
+Folate
+0
+ug per serving
+Pantothenic Acid
+0
+mg per serving
+Biotin
+0
+ug per serving
+Choline
+0
+mg per serving
+completefoods
+Contact UsNutrient CalculatorTerms & Privacy
+Feedback

@@ -1,0 +1,160 @@
+Complete Foods
+Recipes
+Nutrient Profiles
+About
+
+Back to recipe
+Editing Ingredient
+Name
+Multivitamin
+How to add an ingredient from another recipe
+FormUnit
+Container Size
+500
+g
+Cost
+$
+17.16
+Source
+Amazon - Kirkland Signature
+Link
+https://www.amazon.com/dp/B006VRNEFO?tag=19-82341-20
+Daily serving
+1
+pill
+Volume
+0
+Unit
+Please enter the 'suggested serving' size that typically appears on nutritional information labels, then nutrient amounts relative to that serving size.
+Serving size
+1
+pill
+Calories
+0
+kcal per serving
+Carbohydrates
+0
+g per serving
+Protein
+0
+g per serving
+Total Fat
+0
+g per serving
+Saturated Fat
+0
+g per serving
+Monounsaturated Fat
+0
+g per serving
+Polyunsaturated Fat
+0
+g per serving
+Omega-3 Fatty Acids
+0
+g per serving
+Omega-6 Fatty Acids
+0
+g per serving
+Total Fiber
+0
+g per serving
+Soluble Fiber
+0
+g per serving
+Insoluble Fiber
+0
+g per serving
+Cholesterol
+0
+mg per serving
+Calcium
+0.2
+g per serving
+Chloride
+0.072
+g per serving
+Chromium
+35
+ug per serving
+Copper
+0.9
+mg per serving
+Iodine
+150
+ug per serving
+Iron
+18
+mg per serving
+Magnesium
+100
+mg per serving
+Manganese
+2.3
+mg per serving
+Molybdenum
+45
+ug per serving
+Phosphorus
+0.109
+g per serving
+Potassium
+0.08
+g per serving
+Selenium
+55
+ug per serving
+Sodium
+0
+g per serving
+Sulfur
+0
+g per serving
+Zinc
+11
+mg per serving
+Vitamin A
+3500
+IU per serving
+Vitamin B6
+2
+mg per serving
+Vitamin B12
+6
+ug per serving
+Vitamin C
+90
+mg per serving
+Vitamin D
+400
+IU per serving
+Vitamin E
+30
+IU per serving
+Vitamin K
+25
+ug per serving
+Thiamin
+1.5
+mg per serving
+Riboflavin
+1.7
+mg per serving
+Niacin
+20
+mg per serving
+Folate
+500
+ug per serving
+Pantothenic Acid
+10
+mg per serving
+Biotin
+30
+ug per serving
+Choline
+0
+mg per serving
+completefoods
+Contact UsNutrient CalculatorTerms & Privacy
+Feedback
