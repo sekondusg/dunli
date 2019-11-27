@@ -10,6 +10,10 @@ PROFILE = default
 PROJECT_NAME = dunli
 PYTHON_INTERPRETER = python3
 
+# See: https://stackoverflow.com/questions/33713084/download-link-for-google-spreadsheets-csv-export-with-multiple-sheets
+GOOGLE_CSV_NUTR = 'https://docs.google.com/spreadsheets/d/1UOx5ZkNMjcwybx9TgFS_EaQnjbokqDx6K9NW0mRDGlg/export?format=csv&id=1UOx5ZkNMjcwybx9TgFS_EaQnjbokqDx6K9NW0mRDGlg&gid=624419712'
+GOOGLE_CSV_INGR = 'https://docs.google.com/spreadsheets/d/1UOx5ZkNMjcwybx9TgFS_EaQnjbokqDx6K9NW0mRDGlg/export?format=csv&id=1UOx5ZkNMjcwybx9TgFS_EaQnjbokqDx6K9NW0mRDGlg&gid=1812860789'
+
 ifeq (,$(shell which conda))
 HAS_CONDA=False
 else
@@ -53,6 +57,11 @@ ifeq (default,$(PROFILE))
 else
 	aws s3 sync s3://$(BUCKET)/data/ data/ --profile $(PROFILE)
 endif
+
+## Download Data from Google
+sync_data_from_google:
+	curl $(GOOGLE_CSV_NUTR) > data/raw/nutrition_profile.csv
+	curl $(GOOGLE_CSV_INGR) > data/raw/ingredients.csv
 
 ## Set up python interpreter environment
 create_environment:
