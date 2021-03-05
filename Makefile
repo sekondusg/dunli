@@ -11,8 +11,8 @@ PROJECT_NAME = dunli
 PYTHON_INTERPRETER = python3
 
 # See: https://stackoverflow.com/questions/33713084/download-link-for-google-spreadsheets-csv-export-with-multiple-sheets
-GOOGLE_CSV_NUTR = 'https://docs.google.com/spreadsheets/d/1UOx5ZkNMjcwybx9TgFS_EaQnjbokqDx6K9NW0mRDGlg/export?format=csv&id=1UOx5ZkNMjcwybx9TgFS_EaQnjbokqDx6K9NW0mRDGlg&gid=624419712'
-GOOGLE_CSV_INGR = 'https://docs.google.com/spreadsheets/d/1UOx5ZkNMjcwybx9TgFS_EaQnjbokqDx6K9NW0mRDGlg/export?format=csv&id=1UOx5ZkNMjcwybx9TgFS_EaQnjbokqDx6K9NW0mRDGlg&gid=1812860789'
+GOOGLE_CSV_INGR = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRYlsZPuEL1r700-ID0Arkf9M3mg4GmKt-g1NqhvXj-tc5rWxnAsGj6PHp2gT958-x6LZgrS_-XmJDt/pub?gid=1812860789&single=true&output=csv'
+GOOGLE_CSV_NUTR = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRYlsZPuEL1r700-ID0Arkf9M3mg4GmKt-g1NqhvXj-tc5rWxnAsGj6PHp2gT958-x6LZgrS_-XmJDt/pub?gid=624419712&single=true&output=csv'
 
 ifeq (,$(shell which conda))
 HAS_CONDA=False
@@ -60,8 +60,8 @@ endif
 
 ## Download Data from Google
 sync_data_from_google:
-	curl $(GOOGLE_CSV_NUTR) > data/raw/nutrition_profile.csv
-	curl $(GOOGLE_CSV_INGR) > data/raw/ingredients.csv
+	curl -L $(GOOGLE_CSV_NUTR) > data/raw/nutrition_profile.csv
+	curl -L $(GOOGLE_CSV_INGR) > data/raw/ingredients.csv
 
 ## Set up python interpreter environment
 create_environment:
