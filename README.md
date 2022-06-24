@@ -3,6 +3,13 @@ dunli
 
 Nutrition optimizer for Ugrainium
 
+## Overview
+A Google spreadsheet is used to list both a personalized nutrition profile and a list of ingredients. Both are loaded as datasets in the notebook. An optimizer is used to find an optimal combination of ingredients to match the requirements set by the nutrition profile
+
+## Update Process
+- Update the log entry in the Ugrainium Obsidian note with details on improvements
+- Make a copy of the spreadsheet used for the new recipe and also store the link in Obsidian
+
 Project Organization
 ------------
 
