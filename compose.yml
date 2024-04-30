@@ -1,0 +1,19 @@
+services:
+  ugrainium:
+    #user: cyrk
+    build: .
+    #command: "sleep infinity"
+    #command: "/bin/bash -l -c 'fava -H 0.0.0.0 /vol/BeanoChron/ChartOfAccounts.beancount'"
+    ports:
+      - "8005:8888"
+    volumes:
+      - type: bind
+        source: /home/cyrk/.git-credentials
+        target: /home/cyrk/.git-credentials
+      - type: bind
+        source: /home/cyrk/Downloads
+        target: /vol/UGrainium/Downloads
+      - type: bind
+        source: /vol/UGrainium
+        target: /vol/UGrainium
+
