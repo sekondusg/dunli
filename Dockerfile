@@ -1,6 +1,6 @@
-#ARG PYTHON_VERSION=3.12
-#FROM python:${PYTHON_VERSION}-bookworm as base
-FROM quay.io/jupyter/base-notebook as base
+ARG PYTHON_VERSION=3.12
+ FROM python:${PYTHON_VERSION}-bookworm as base
+#FROM quay.io/jupyter/base-notebook as base
 
 # Prevents Python from writing pyc files.
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -26,16 +26,13 @@ RUN useradd -u ${HOST_UID} -g ${HOST_GID} -d /home/${USER} -c "${PROJ}" -ms /bin
 # into this layer.
 USER ${USER}
 WORKDIR /home/${USER}
+
 RUN --mount=type=cache,target=/home/${USER}/.cache/pip \
     --mount=type=bind,source=requirements.txt,target=requirements.txt \
     pip install -r requirements.txt
-#    python -m pip install -r requirements.txt
 
+ENV PATH=${PATH}:/home/${USER}/.local/bin
 WORKDIR /vol/${PROJ}
-#USER ${USER}
 ENV PYTHONPATH=/vol/${PROJ}:.
-#COPY requirements.txt requirements.txt
-#RUN python3 -m venv venv venv
-#RUN source venv/bin/activate; pip install -r requirements.txt
 
-#CMD ["sleep infinity"]
+ENTRYPOINT exec jupyter lab --notebook-dir=/vol/${PROJ} --port=8008 --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=ugrainium --NotebookApp.password=ugrainium

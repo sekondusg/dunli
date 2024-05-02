@@ -1,11 +1,9 @@
 services:
   ugrainium:
-    #user: cyrk
     build: .
-    #command: "sleep infinity"
-    #command: "/bin/bash -l -c 'fava -H 0.0.0.0 /vol/BeanoChron/ChartOfAccounts.beancount'"
+    command: "jupyter-lab"
     ports:
-      - "8005:8888"
+      - "8008:8008"
     volumes:
       - type: bind
         source: /home/cyrk/.git-credentials
